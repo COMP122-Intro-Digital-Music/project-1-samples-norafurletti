@@ -34,10 +34,16 @@
       "portamento": "0.5",
       "volume": "0",
       "oscillator": {
-        "type": "amtriangle",
+        "type": "fatcustom",
         "phase": 0,
-        "partialCount": "0",
-        "partials": []
+        "partialCount": "3",
+        "partials": [
+          "0.47",
+          "0.92",
+          "0.62"
+        ],
+        "count": "3",
+        "spread": "25"
       },
       "envelope": {
         "attack": "0.1",
